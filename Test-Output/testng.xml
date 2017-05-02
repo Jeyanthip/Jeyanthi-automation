@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing" parallel="false" verbose="3">
+  <test  name="basic test">
+  <parameter name="browserType" value="FF"></parameter>
+  <parameter name="url" value="https://uptake.com/"></parameter>
+  <parameter name="sectionName" value="INDUSTRIES"></parameter>
+      <parameter name="industriesListnumber" value="8"></parameter>
+    <classes>
+      <class name="org.testng.tests.uptaketests"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

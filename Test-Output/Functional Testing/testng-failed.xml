@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Functional Testing]">
+  <parameter name="sectionName" value="INDUSTRIES"/>
+  <parameter name="industriesListnumber" value="8"/>
+  <parameter name="url" value="https://uptake.com/"/>
+  <parameter name="browserType" value="FF"/>
+  <test name="basic test(failed)">
+    <parameter name="sectionName" value="INDUSTRIES"/>
+    <parameter name="industriesListnumber" value="8"/>
+    <parameter name="url" value="https://uptake.com/"/>
+    <parameter name="browserType" value="FF"/>
+    <classes>
+      <class name="org.testng.tests.uptaketests">
+        <methods>
+          <include name="isElementpresentHomePage"/>
+          <include name="logout"/>
+          <include name="InvokeBrowser"/>
+        </methods>
+      </class> <!-- org.testng.tests.uptaketests -->
+    </classes>
+  </test> <!-- basic test(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->

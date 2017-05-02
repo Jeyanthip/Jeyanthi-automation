@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing" duration-ms="20656" started-at="2017-05-02T22:24:56Z" finished-at="2017-05-02T22:25:17Z">
+    <groups>
+    </groups>
+    <test name="basic test" duration-ms="20656" started-at="2017-05-02T22:24:56Z" finished-at="2017-05-02T22:25:17Z">
+      <class name="org.testng.tests.uptaketests">
+        <test-method status="PASS" signature="InvokeBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.testng.tests.uptaketests@3532ec19]" name="InvokeBrowser" is-config="true" duration-ms="12669" started-at="2017-05-02T17:24:56Z" finished-at="2017-05-02T17:25:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://uptake.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:1, instance:org.testng.tests.uptaketests@3532ec19]" name="VerifyTitle" duration-ms="3031" started-at="2017-05-02T17:25:09Z" description="Verify Title" finished-at="2017-05-02T17:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="verifyjumptosection(java.lang.String)[pri:2, instance:org.testng.tests.uptaketests@3532ec19]" name="verifyjumptosection" duration-ms="2431" started-at="2017-05-02T17:25:12Z" description="Verify Jump to Section" finished-at="2017-05-02T17:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[INDUSTRIES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyjumptosection -->
+        <test-method status="PASS" signature="isElementpresentHomePage()[pri:3, instance:org.testng.tests.uptaketests@3532ec19]" name="isElementpresentHomePage" duration-ms="1168" started-at="2017-05-02T17:25:14Z" description="VerifyElementPresent" finished-at="2017-05-02T17:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isElementpresentHomePage -->
+        <test-method status="PASS" signature="industrieslist(java.lang.String)[pri:4, instance:org.testng.tests.uptaketests@3532ec19]" name="industrieslist" duration-ms="31" started-at="2017-05-02T17:25:15Z" description="VerifyIndustriesListCount" finished-at="2017-05-02T17:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- industrieslist -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:org.testng.tests.uptaketests@3532ec19]" name="logout" is-config="true" duration-ms="1299" started-at="2017-05-02T17:25:15Z" finished-at="2017-05-02T17:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- org.testng.tests.uptaketests -->
+    </test> <!-- basic test -->
+  </suite> <!-- Testing -->
+</testng-results>
